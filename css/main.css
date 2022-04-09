@@ -15,10 +15,21 @@
     font-size: xx-large;
 }
 
-.content {
-    
+.hero {
+    margin: -52px -52px -31.9px -40px;
+    background-color: #F3d0a6;
+
   
 }
+.hero p {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.content {background-color: #F3d0a6;
+  position: absolute;
+	left: 0;}
 
 .infogrid{
     display: grid;
@@ -27,4 +38,42 @@
     justify-content: space-evenly;
     row-gap: 1em;
 
+}
+
+.royimg  {
+    margin-top: 2em;
+    margin-left: 10em;
+    height: 500px;
+    width: 350px;
+    border-radius: 50%;
+    border: 8px solid transparent ;
+    background-color: #eab676;
+    
+    
+}
+
+
+.waltimg  {
+    margin-top: 2em;
+    margin-left: 8em;
+    height: 500px;
+    border-radius: 50%;
+    border: 8px solid transparent ;
+    background-color: #eab676;
+    
+    
+}
+
+.name {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.about {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: large;
 }
