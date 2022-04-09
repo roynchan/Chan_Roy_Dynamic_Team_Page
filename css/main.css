@@ -14,22 +14,13 @@
     text-align: center;
     font-size: xx-large;
 }
-
-.hero {
-    margin: -52px -52px -31.9px -40px;
-    background-color: #F3d0a6;
-
-  
-}
 .hero p {
     font-family: 'Rubik Moonrocks', cursive;
-    color: white;
+    color: #eab676;
     text-align: center;
     font-size: xx-large;
 }
-.content {background-color: #F3d0a6;
-  position: absolute;
-	left: 0;}
+
 
 .infogrid{
     display: grid;
@@ -64,16 +55,37 @@
     
 }
 
-.name {
+#rname {
     font-family: 'Rubik Moonrocks', cursive;
-    color: white;
+    color: #eab676;
     text-align: center;
     font-size: xx-large;
 }
 
-.about {
+#rabout {
     font-family: 'Oswald', sans-serif;
     color: black;
     text-align: center;
     font-size: large;
+}
+
+#wname {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: #eab676;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#wabout {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+.hide {
+    display: none;
+}
+
+.show { display: block;
 }
